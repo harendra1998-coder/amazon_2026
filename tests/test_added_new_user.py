@@ -24,6 +24,6 @@ def test_new_added_user(driver,url):
 
    user = AddUserPage(driver)
    user.user_data("ESS")
-   user.status("Enabled")
+   user.status("Disabled")
    user.employee()
 
